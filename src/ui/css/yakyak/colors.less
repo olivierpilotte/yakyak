@@ -90,7 +90,38 @@ html{
   .convhead .win-buttons button{
     background-color: var(--black);
   }
-}
+
+  &.black{
+      --white: #020202; // sidebar and textbox background
+      --ghostwhite: #3465A4; // mouse over sidebar conversations
+      --lightgrey: #020202; // main window background
+      --altgrey: #020202; // me bubble background
+      --grey: #3465A4; // scrollbar
+      --darkgrey: #ffffff;
+      --lightblack: #ffffff;
+      --black: #ffffff;
+      --green: #020202;
+      --online: var(--yakyakgreen);
+      --darkgreen: #005500;
+      --red: #ff5555;
+      --darkred: #550000;
+      --link: #3465A4;
+      --tweetbg: #3465A4;
+      --instagrambg: #3465A4;
+
+    .listhead,
+    .listhead button,
+    .convhead .name,
+    .controls .button,
+    .convhead .headwrap .optionwrapper > .button,
+    .convadd .button{
+      color: var(--black);
+    }
+
+    .convhead .win-buttons button{
+      background-color: var(--black);
+    }
+  }
 
   &.material{
     --white: #202B31;
